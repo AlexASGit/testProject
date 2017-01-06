@@ -1,0 +1,105 @@
+/*---------------------------------优惠标签效果--------------------------------*/
+.tips_info_positon{
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.tips_info_mj{
+    height: 15px;
+    line-height: 15px;
+    padding: 2px 5px;
+    background-color: #4abd56;
+    color:#ffffff;
+    font-size: 1.2rem;
+}
+.tips_info_msmy{
+    height: 13px;
+    line-height: 13px;
+    border: 1px solid #4abd56;
+    padding: 2px 5px;
+    color:#61c972;
+    font-size: 1.2rem;
+}
+.tips_info_mrqx{
+    height: 13px;
+    line-height: 13px;
+    border: 1px solid #ffaf00;
+    padding: 2px 5px;
+    color:#ffaf00;
+    font-size: 1.2rem;
+}
+.tips_info_mysy{
+    height: 13px;
+    line-height: 13px;
+    border: 1px solid #ff4c00;
+    padding: 2px 5px;
+    color:#ff4c00;
+    font-size: 1.2rem;
+}
+.tips_info_sjps{
+    height: 13px;
+    line-height: 13px;
+    border: 1px solid #2792ff;
+    padding: 2px 5px;
+    color:#2792ff;
+    font-size: 1.2rem;
+}
+
+/*---------------------------------三角标签效果--------------------------------*/
+.Triangle_box40{
+    width:0;
+    height:0;
+    margin: 0 -40px -40px 0;
+    border-width:40px 40px 0 0;
+    border-style:solid;
+    position:relative;
+}
+.Triangle_text40{
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: -8px;
+    margin-top: 4px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+    transform:rotate(-45deg) scale(0.8);
+    -webkit-transform: rotate(-45deg) scale(0.8);
+}
+.Triangle_box60{
+    width:0;
+    height:0;
+    margin: 0 -60px -60px 0;
+    border-width:60px 60px 0 0;
+    border-style:solid;
+    position:relative;
+}
+.Triangle_text60{
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: -10px;
+    margin-top: 5px;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+    transform:rotate(-45deg) scale(0.8);
+    -webkit-transform: rotate(-45deg) scale(0.8);
+}
+.Triangle_boxColor4abd56{
+    border-color:#4abd56 transparent transparent transparent;
+}
+.Triangle_boxColorff4c00{
+    border-color:#ff4c00 transparent transparent transparent;
+}
+.Triangle_boxColor2792ff{
+    border-color:#2792ff transparent transparent transparent;
+}
+.Triangle_boxColorffaf00{
+    border-color:#ffaf00 transparent transparent transparent;
+}

@@ -1,0 +1,12 @@
+{
+  "Version":"0.0.1",
+  "CreatTime":"2016/12/7",
+  "Controller":"Alex",
+  "ToolList":[
+    "jQuery v2.1.4(cookie,base64)",//基础功能开发DOM元素遍历和基本接口操作。
+    "VueJS v2.1.4",//模块化处理开发以及数据操作
+    "Waves v0.7.5",//点击效果处理
+    "Cropper v0.10.1 & Canvas2Image",//处理图像
+    "Sea.js v3.0.0"//模块化处理CMD加载
+  ]
+}

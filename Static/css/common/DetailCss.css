@@ -1,0 +1,215 @@
+/*---------------------------------整体布局部分--------------------------------*/
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+header{
+    display: none;
+}
+main{
+    flex:1;
+}
+floor{
+    display: flex;
+}
+/*---------------------------------顶部优惠标签--------------------------------*/
+#comm_flag_triangle{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+/*---------------------------------滑动展示部分--------------------------------*/
+#top_list_img{
+    width: 100%;
+    float: left;
+}
+#flag_img_box{
+    width: 100%;
+    float: left;
+}
+#flag_point_box{
+    width: 100%;
+    z-index: 20;
+    margin-top: -10px;
+    position: relative;
+    height: 6px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+#flag_point_box div{
+    width: 6px;
+    height: 6px;
+    margin-right: 6px;
+    -webkit-border-radius:3px;
+    border-radius: 3px;
+    float: left;
+}
+.opint_normal{
+    background-color: #cccccc
+}
+.opint_active{
+    background-color: #4abd56
+}
+.opint_normal_a{
+    -webkit-animation: _4_c 0.5s;
+    background-color: #cccccc
+}
+@-webkit-keyframes _4_c {
+    from{background-color: #4abd56}to{background-color: #cccccc}
+}
+.opint_active_a{
+    -webkit-animation: _c_4 0.5s;
+    background-color: #4abd56
+}
+@-webkit-keyframes _c_4 {
+    from{background-color: #cccccc}to{background-color: #4abd56}
+}
+/*---------------------------------商品名称部分--------------------------------*/
+#comm_nameInfo_box{
+    padding: 15px;
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+#comm_nameInfo_line1{
+    display: flex;
+}
+#comm_nameinfo_Left{
+    text-align:justify;
+    flex: 1;
+    padding-right: 15px;
+}
+#comm_nameInfo_text{
+    line-height: 16px;
+    font-size: 1.6rem;
+    width: 100%;
+}
+#comm_nameinfo_Right{
+    padding: 0 0 0 15px;
+    border-left: 1px solid #f1f1f1;
+}
+#comm_nameinfo_Right img{
+    width: 16px;
+}
+#comm_nameInfo_line2{
+    margin: 10px 0;
+    flex: 1px;
+}
+#comm_charge_box{
+    float: left;
+    margin-right: 10px;
+}
+#comm_nameInfo_line3{
+    display: flex;
+}
+#comm_nameInfo_line3 div{
+    flex: 1;
+    font-size: 1.2rem;
+    color: #999999;
+    text-align: center;
+}
+#comm_nameInfo_line3 div:first-child{
+    text-align: left;
+}
+#comm_nameInfo_line3 div:last-child{
+    text-align: right;
+}
+/*---------------------------------配送规则部分---------------------------------*/
+#cont_transport_info{
+    width: 100%;
+    background-color: #f2fff4;
+    margin-bottom: 10px;
+}
+#credit_tips_box{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+.credit_Set{
+    flex: 1;
+    line-height: 20px;
+    height: 20px;
+    font-size: 1.4rem;
+    justify-content: center;
+    display: flex;
+}
+.credit_Set div{
+    text-align: center;
+    width: 40px;
+    font-size: 12px;
+    color: #333333;
+    height: 18px;
+    padding: 1px 0;
+    margin-left: 5px;
+}
+.credit_Set img{
+    height: 18px;
+    padding: 1px 0;
+}
+#credit_Set_arrow{
+    height: 14px;
+    padding: 3px 10px 3px 50px;
+}
+#distribution_rule_area{
+    border-top: 1px solid #f1f1f1;
+    display: flex;
+    padding: 10px 15px;
+    line-height: 20px;
+    height: 20px;
+    color: #333333;
+}
+/*---------------------------------商品详情---------------------------------*/
+#comm_info_detail{
+    width: 100%;
+    background-color: #ffffff;;
+}
+#switching_bar_box{
+    display: flex;
+    line-height: 20px;
+}
+.switching_on_select{
+    flex: 1;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #4abd56;
+    color: #61c972;
+}
+.switching_no_select{
+    flex: 1;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+    color: #333333;
+}
+/*图文*/
+#comm_detail_box{
+    width: 100%;
+}
+#comm_detail_box img{
+    width: 100%;
+}
+#comm_parameter_box{
+    width: 100%;
+}
+/*参数*/
+.parameter_line{
+    display: flex;
+    width: 100%;
+    font-size: 12px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.parameter_title{
+    padding:10px 15px 10px 15px;
+    flex: 0.2;
+    color: #666666;
+}
+.parameter_info{
+    line-height: 14px;
+    padding:10px 15px 10px 0;
+    flex: 0.8;
+    color: #333333;
+}
